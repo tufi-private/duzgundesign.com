@@ -1,0 +1,13 @@
+.sf-menu {position:absolute; top:69px; right:112px; z-index:3;}
+.sf-menu > li {float:left; position:relative;}
+.sf-menu > li > a {display:block; font-size:16px; line-height:20px; color:#fff; font-weight:700; font-style:normal; text-transform:uppercase; text-decoration:none; padding:17px 19px; position:relative; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; background:none;}
+.sf-menu li a:hover, .sf-menu li.sfHover a, .sf-menu li a.current {background:url(../images/menu-tail.gif) 0 0 repeat-x;}
+
+/***********************submenu***********************/
+.sf-menu ul {display:none;}
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {position:absolute; left:0; top:62px; width:233px; padding:0; z-index:99;}
+.sf-menu ul li {width:213px; padding:10px; position:relative; background:url(../images/submenu-bg.png) 0 0 repeat;}
+.sf-menu ul li.item {background:url(../images/submenu-bg-item.png) 0 0 repeat;}
+.menu-img {float:left; margin-right:19px; position:relative;}
+.sf-menu li:hover li a, .sf-menu li.sfHover li a {display:inline-block; font-size:16px; line-height:20px; color:#fff; text-transform:uppercase; font-weight:700; text-decoration:none; padding:15px 0 0 0; position:relative; background:none; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+.sf-menu li li a:hover, .sf-menu li li.sfHover a, .sf-menu li li.alt a, .sf-menu li li a.active {color:#f77804;}
