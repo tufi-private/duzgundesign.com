@@ -1,4 +1,4 @@
-.sf-menu {position:absolute; top:69px; right:112px; z-index:3;}
+.sf-menu {position:absolute; top:69px; right:92px; z-index:3;}
 .sf-menu > li {float:left; position:relative;}
 .sf-menu > li > a {display:block; font-size:16px; line-height:20px; color:#fff; font-weight:700; font-style:normal; text-transform:uppercase; text-decoration:none; padding:17px 19px; position:relative; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; background:none;}
 .sf-menu li a:hover, .sf-menu li.sfHover a, .sf-menu li a.current {background:url(../images/menu-tail.gif) 0 0 repeat-x;}
