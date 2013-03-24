@@ -89,7 +89,7 @@ a {cursor:pointer;}
 
 /*********************************header*************************************/
 header {height:123px; width:100%; position:relative; z-index:2;}
-.header {height:734px; width:100%; position:relative; z-index:2;}
+.header {/*height:734px;*/ width:100%; position:relative; z-index:2;}
 
 /*********************************row-1*************************************/
 .row-1 {width:100%; height:123px; position:relative; z-index:2;}
@@ -104,7 +104,14 @@ h1 a {display:block; width:258px; height:72px; text-indent:-5000px; background:u
 #search a:hover {background:url(../images/search-button.gif) 0 bottom no-repeat;}
 
 /*********************************row-2*************************************/
-.row-2 {width:100%; height:580px; padding:18px 0 13px; position:relative; z-index:1; background:url(../images/row2-border.gif) center 0 no-repeat;}
+.row-2 {
+    width: 100%;
+    /*height: 580px;*/
+    padding: 18px 0 13px;
+    position: relative;
+    z-index: 1;
+    background: url(../images/row2-border.gif) center 0 no-repeat;
+}
 
 /*********************************content*************************************/
 #content {width:100%; padding:18px 0 0; position:relative; z-index:1;}
@@ -257,3 +264,17 @@ footer {width:100%; padding:23px 0px; background:none;}
 #contact-form .buttons a.button-send:hover, #contact-form .buttons a.button-clear:hover {background-position:0 bottom;}
 
 #contact-form .success {color:#686868; width:246px; margin-bottom:20px; padding:10px; border:1px solid #303030; background:#252525;}
+
+.gallery { list-style: none; padding: 0; margin: 0; }
+.gallery:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+
+.gallery li {
+    border: 1px solid white;
+    float: left;
+    height: 96px;
+    overflow: hidden;
+    padding: 5px;
+    width: 146px;
+}
+.gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
+.gallery li img { display: block; width: 100%; height: auto; }

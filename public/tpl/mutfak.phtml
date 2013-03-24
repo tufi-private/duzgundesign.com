@@ -1,0 +1,23 @@
+<?php
+$page = 'mutfak';
+?>
+<?php include_once 'header.phtml'; ?>
+<?php
+$excludeList = array(".", "..");
+$path = dirname(__FILE__).'/../assets/01-mutfak/orig';
+$files = array_diff(scandir($path), $excludeList);
+?>
+<div class="row-2">
+        <div class="main">
+    <ul id="gallery" class="gallery">
+        <?php foreach ($files as $key => $file) : ?>
+        <li>
+            <a href="assets/01-mutfak/orig/<?=$file?>" rel="lightbox">
+                <img src="assets/01-mutfak/thumb/<?=$file?>" alt="<?= $file ?>" />
+            </a>
+        </li>
+        <?php endforeach; ?>
+    </ul>
+<?php include_once 'footer.phtml'; ?>
+</div>
+</div>

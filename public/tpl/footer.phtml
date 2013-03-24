@@ -1,0 +1,21 @@
+<!--==============================footer=================================-->
+<footer>
+    <div class="main">
+        <div class="wrapper">
+            <ul class="menu-bot">
+                <li><a <?= $page == 'index' ? 'class="active"' :'' ?> href="index.html">Ana Sayfa</a></li>
+                <li><a <?= $page == 'about' ? 'class="active"' :'' ?> href="#">Hakkımızda</a></li>
+                <li><a <?= in_array($page, array('mutfak','banyo','gardrop','sifonyer','tv','makyaj','kitaplik','kapi')) ? 'class="active"' :'' ?>  href="#">Ürünlerimiz</a></li>
+                <li><a <?= $page == 'contact' ? 'class="active"' :'' ?>  href="#">İletişim</a></li>
+            </ul>
+            <div class="text-bot">
+                Düzgün Design &copy; 2013
+            </div>
+        </div>
+        <div class="footer-link"><!-- {%FOOTER_LINK} --></div>
+    </div>
+</footer>
+<!--==============================End footer=================================-->
+</div>
+</body>
+</html>
