@@ -1,0 +1,11 @@
+<ul id="gallery" class="gallery">
+            <?php foreach ($files as $key => $file) : ?>
+                <li>
+                    <a href="assets/<?= $assetDir ?>/orig/<?= $file ?>"
+                       rel="lightbox">
+                        <img src="assets/<?= $assetDir ?>/thumb/<?= $file ?>"
+                             alt="<?= $file ?>"/>
+                    </a>
+                </li>
+            <?php endforeach; ?>
+        </ul>

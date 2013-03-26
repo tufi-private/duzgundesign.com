@@ -207,13 +207,15 @@ footer {width:100%; padding:23px 0px; background:none;}
 .pagination {position:absolute; bottom:0; left:0; z-index:999; padding:11px 14px 10px 10px; background:url(../images/pagination-bg.png) 0 0 repeat;}
 .pagination li {float:left; display:block; margin:0 10px 0 0; position:relative;}
 .pagination li.last-item {margin:0;}
-.pagination li .item1, .pagination li .item2,.pagination li .item3, .pagination li .item4, .pagination li .item5, .pagination li .item6 {display:block; width:146px; height:96px; text-decoration:none;}
-#page1 .pagination li .item1, #page6 .pagination li .item1 {background:url(../images/page1-img1-small.jpg) 0 0 no-repeat;}
-#page1 .pagination li .item2, #page6 .pagination li .item2 {background:url(../images/page1-img2-small.jpg) 0 0 no-repeat;}
-#page1 .pagination li .item3, #page6 .pagination li .item3 {background:url(../images/page1-img3-small.jpg) 0 0 no-repeat;}
-#page1 .pagination li .item4, #page6 .pagination li .item4 {background:url(../images/page1-img4-small.jpg) 0 0 no-repeat;}
-#page1 .pagination li .item5, #page6 .pagination li .item5 {background:url(../images/page1-img5-small.jpg) 0 0 no-repeat;}
-#page1 .pagination li .item6, #page6 .pagination li .item6 {background:url(../images/page1-img6-small.jpg) 0 0 no-repeat;}
+.pagination li .item1, .pagination li .item2,.pagination li .item3, .pagination li .item4, .pagination li .item5, .pagination li .item6, .pagination li .item7, .pagination li .item8 {display:block; width:107px; height:65px; text-decoration:none;}
+#page1 .pagination li .item1, #page6 .pagination li .item1 {background:url(../assets/00-start/01-thumb.jpg) 0 0 no-repeat;}
+#page1 .pagination li .item2, #page6 .pagination li .item2 {background:url(../assets/00-start/02-thumb.jpg) 0 0 no-repeat;}
+#page1 .pagination li .item3, #page6 .pagination li .item3 {background:url(../assets/00-start/03-thumb.jpg) 0 0 no-repeat;}
+#page1 .pagination li .item4, #page6 .pagination li .item4 {background:url(../assets/00-start/04-thumb.jpg) 0 0 no-repeat;}
+#page1 .pagination li .item5, #page6 .pagination li .item5 {background:url(../assets/00-start/05-thumb.jpg) 0 0 no-repeat;}
+#page1 .pagination li .item6, #page6 .pagination li .item6 {background:url(../assets/00-start/06-thumb.jpg) 0 0 no-repeat;}
+#page1 .pagination li .item7, #page6 .pagination li .item7 {background:url(../assets/00-start/07-thumb.jpg) 0 0 no-repeat;}
+#page1 .pagination li .item8, #page6 .pagination li .item8 {background:url(../assets/00-start/08-thumb.jpg) 0 0 no-repeat;}
 #page4 .pagination li .item1 {background:url(../images/page4-img1-small.jpg) 0 0 no-repeat;}
 #page4 .pagination li .item2 {background:url(../images/page4-img2-small.jpg) 0 0 no-repeat;}
 #page4 .pagination li .item3 {background:url(../images/page4-img3-small.jpg) 0 0 no-repeat;}

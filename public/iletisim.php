@@ -1,7 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-$page='index';
+$page='iletisim';
 
-include './tpl/index.phtml';
+include './tpl/iletisim.phtml';
 exit;
