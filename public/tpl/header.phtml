@@ -15,6 +15,9 @@
     <script src="js/tms-0.3.2.js" type="text/javascript"></script>
     <script src="js/tms_presets.js" type="text/javascript"></script>
     <?php endif; ?>
+    <?php if ($page == 'iletisim') : ?>
+    <script src="js/forms.js" type="text/javascript"></script>
+    <?php endif; ?>
     <?php if (in_array($page, array('mutfak','banyo','gardrop','sifonyer','tv','makyaj','kitaplik','kapi' ))): ?>
         <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" />
         <script type="text/javascript" src="js/slimbox2.js"></script>
@@ -37,17 +40,17 @@
     <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
     <![endif]-->
 </head>
-<body id="page1">
+<body <?= ($page=='index') ? 'id="page1"':'' ?>>
 <div class="block">
 <!--==============================header=================================-->
 <header class="header">
     <div class="row-1">
         <div class="main">
-            <h1><a href="index.php">Morcan</a></h1>
+            <div class="logo"><a href="index.php">Morcan</a></div>
             <nav>
                 <ul class="sf-menu">
                     <li><a <?= $page == 'index' ? 'class="current"' :'' ?> href="index.php">ANA SAYFA</a></li>
-                    <li><a <?= $page == 'about' ? 'class="current"' :'' ?>  href="hakkimizda.php">HAKKIMIZDA</a></li>
+                    <li><a <?= $page == 'hakkimizda' ? 'class="current"' :'' ?>  href="hakkimizda.php">HAKKIMIZDA</a></li>
                     <li><a <?= in_array($page, array('mutfak','banyo','gardrop','sifonyer','tv','makyaj','kitaplik','kapi')) ? 'class="current"' :'' ?> href="#">ÜRÜNLERİMİZ</a>
                         <ul>
                             <li>

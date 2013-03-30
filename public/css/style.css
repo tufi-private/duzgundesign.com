@@ -28,7 +28,7 @@ a:hover {text-decoration:none;}
 .wrapper {width:100%; overflow:hidden;}
 .extra-wrap {overflow:hidden;}
 
-p {margin-bottom:17px;}
+p {margin-bottom:17px; color: #eee;}
 .p0 {margin-bottom:4px;}
 .p1 {margin-bottom:8px;}
 .p2 {margin-bottom:15px;}
@@ -66,6 +66,7 @@ p {margin-bottom:17px;}
 .spacing-bot {margin-bottom:25px;}
 
 .indent {padding:0 0 0px 30px;}
+.box .indent {padding:26px 15px 30px 30px}
 .indent2 {padding-left:50px;}
 .indent-bot {margin-bottom:20px;}
 .indent-bot2 {margin-bottom:30px;}
@@ -82,6 +83,9 @@ p {margin-bottom:17px;}
 .prev-box {float:left; margin-bottom:8px;}
 
 .border {border:3px solid #000;}
+.border-red {border:3px solid #FF0698;}
+.border-grey {border:3px solid #686868;}
+.border-white {border:3px solid #ffffff;}
 
 a {cursor:pointer;}
 
@@ -94,8 +98,8 @@ header {height:123px; width:100%; position:relative; z-index:2;}
 /*********************************row-1*************************************/
 .row-1 {width:100%; height:123px; position:relative; z-index:2;}
 
-h1 {position:absolute; top:30px; left:-1px; overflow:hidden;}
-h1 a {display:block; width:258px; height:72px; text-indent:-5000px; background:url(../images/logo-top.png) 0 0 no-repeat;}
+div.logo {position:absolute; top:30px; left:-1px; overflow:hidden;}
+div.logo a {display:block; width:258px; height:72px; text-indent:-5000px; background:url(../images/logo-top.png) 0 0 no-repeat;}
 
 #search {width:239px; position:absolute; top:29px; right:0;}
 #search label {float:left; height:29px; position:relative; margin:0; padding:0;}
@@ -118,9 +122,15 @@ h1 a {display:block; width:258px; height:72px; text-indent:-5000px; background:u
 
 .spacer-1 {width:100%; background:url(../images/spacer-1.gif) 283px 0 repeat-y;}
 
-h3 {font-size:30px; line-height:36px; color:#fff; font-weight:400; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+h1 {font-size:22px; line-height:36px; color:#fff; font-weight:bold; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+h2 {font-size:18px; line-height:36px; color:#fff; font-weight:bold; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
+h3 {font-size:16px; line-height:36px; color:#fff; font-weight:bold; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; margin-bottom: .5em;}
 h5 {font-size:15px; line-height:20px; color:#f77303; font-weight:400; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
 h6 {font-size:12px; line-height:17px; color:#f77303; font-weight:400;}
+
+h3 strong {
+    font-size: 30px;
+}
 
 .border-bot {width:100%; height:1px; background:url(../images/border-bot.gif) 0 bottom repeat-x;}
 
@@ -157,6 +167,9 @@ h6 {font-size:12px; line-height:17px; color:#f77303; font-weight:400;}
 #page9 .box {width:100%; background:url(../images/box-bg11.jpg) 0 0 no-repeat;}
 #page9 .box-tail {width:100%; background:url(../images/box-bg11-tail.jpg) 0 0 repeat-y;}
 #page9 .box .padding {padding:28px 26px 29px 29px;}
+
+.bg-1 {background: none repeat scroll 0 0 #313131}
+.bg-2 {background: none repeat scroll 0 0 #1B1B1B}
 
 blockquote {overflow:hidden; padding:6px 0 0 31px; background:url(../images/quote.png) 0 0 no-repeat;}
 time {font-size:12px; line-height:17px; color:#f77303;}
@@ -280,3 +293,22 @@ footer {width:100%; padding:23px 0px; background:none;}
 }
 .gallery li a { display: block; margin: 5px; border: 1px solid #3c3c3c; }
 .gallery li img { display: block; width: 100%; height: auto; }
+
+h2.gallery {
+    color: #F77404;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+h2.gallery span {
+    color: #E3E3E3;
+    font-size: 80%;
+    font-weight: bold;
+}
+
+span.logo {color: #ff0698}
+
+ul.referans {
+    color: #eee;
+}
